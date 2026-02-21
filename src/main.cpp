@@ -23,12 +23,16 @@ void setup() {
 
     // TODO 3:
     // Initialize Serial communication (9600 baud rate)
+    Serial.begin(9600);
 
     // TODO 4:
     // Configure touch pin as INPUT
+    pinMode(touchpin,INPUT);
+    pinMode(ledpin,OUTPUT);
 
     // TODO 5:
     // Print system initialization message
+    Serial.println("Touch Detection System Initialized");
 }
 
 void loop() {
