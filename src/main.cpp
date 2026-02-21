@@ -47,6 +47,13 @@ void loop() {
     // Else
     //     Print "No Touch"
 
+    if(state==HIGH){
+        Serial.println("Touch Detected");
+        digitalWrite(ledpin,HIGH);
+    }
+    else{
+        Serial.println("No Touch");
+        digitalWrite(ledpin,LOW);
     }
 
     // TODO 8:
