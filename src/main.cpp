@@ -39,6 +39,7 @@ void loop() {
 
     // TODO 6:
     // Read digital value from touch sensor
+    state=digitalRead(touchpin);
 
     // TODO 7:
     // If touch detected (HIGH)
@@ -46,6 +47,9 @@ void loop() {
     // Else
     //     Print "No Touch"
 
+    }
+
     // TODO 8:
     // Add small delay (200–500ms)
+
 }
