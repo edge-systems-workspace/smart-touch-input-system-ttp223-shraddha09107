@@ -12,10 +12,12 @@
 
  // TODO 1:
  // Define touch sensor digital pin (Use pin 2)
-
+int touchpin=2;
+int ledpin=13;
 
  // TODO 2:
  // Create variable to store touch state
+int state=digitalRead(touchpin);
 
 void setup() {
 
